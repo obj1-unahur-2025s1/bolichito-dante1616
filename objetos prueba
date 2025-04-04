@@ -166,8 +166,9 @@ object placa {
     }
   }
 
-  object banquito{
-    var color = naranja
+  object banquito(){
+    var = naranja
+
     method material() {
     return  madera
     }
@@ -181,7 +182,7 @@ object placa {
     }
 
     method color(unColor){
-      color = unColor
+      return color = unColor
     }
 
   }
